@@ -1,0 +1,209 @@
+html,
+body {
+	font-size: 9pt;
+	margin: 0;
+	padding: 0;
+	background-color: #d3d3d3;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-size-adjust: none;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover, a:active, .option:hover {
+	text-decoration: underline;
+}
+
+.b {
+	font-weight: bold;
+}
+
+#leftside {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 35%;
+	bottom: 0px;
+}
+
+#maths {
+	position: absolute;
+	left: 50%;
+	width: 40%;
+	right: 1em;
+	top: 1em;
+	padding: 1em;
+	border: 1px solid #000;
+}
+
+#canvas {
+	border:1px solid red; 
+	margin: 1em;
+	width: 60%;
+}
+
+#rightside {
+	position: absolute;
+	padding: 0;
+	top: 1em;
+	bottom: 0;
+	right: 1em;
+	width: 35%;
+}
+
+#scorecard {
+    position: relative;
+    margin: 0;
+    background: #fff;
+    border: 0;
+    width: 100%;
+	height: 80%;
+    /* aspect-ratio: 0.65 / 1; */
+}
+
+.cellTitle {
+	text-decoration: underline;
+}
+
+.scorebox {
+	width: 100%;
+    border-collapse: collapse;
+}
+
+.scoreinside {
+    border: 1px #000 solid;
+	vertical-align: top;
+	position: relative;
+}
+
+.scoreinside:hover {
+	background: #cad8e4;
+}
+
+.cellbottom {
+	border-bottom: none;
+}
+
+.scoretwothird {
+    width: 66.666%;
+}
+
+.scoreonethird {
+    width: 33.333%;
+}
+
+.scorehalf {
+    width: 50%;
+}
+
+.scorefull {
+    width: 100%;
+}
+
+.options {
+	position: absolute;
+	right: 1em;
+	top: 0;
+	bottom: 0;
+	text-align: center;
+	width: 4em;
+}
+
+.option1 {
+	position: absolute;
+	top: 15%;
+	display: block;
+	left: 0;
+	right: 0;
+}
+
+.option2 {
+	position: absolute;
+	bottom: 15%;
+	display: block;
+	left: 0;
+	right: 0;
+}
+
+.selected {
+	background: #c5fdc3;
+	font-weight: bold;
+	border: 1px rgb(68, 68, 68) solid;
+}
+
+.unselected {
+	background: rgb(255, 225, 225);
+	font-weight: normal;
+	border: none;
+}
+
+button {
+	border: 0;
+	border-radius: 0.25rem;
+	background: #fff;
+	font-family: -system-ui, sans-serif;
+	font-size: 1rem;
+	line-height: 1.2;
+	white-space: nowrap;
+	text-decoration: none;
+	padding: 0.25rem 0.5rem;
+	cursor: pointer;
+}
+
+button:focus {
+	outline: 0; 
+	border-radius: 3px;
+	box-shadow: 0 0 0 1px #000;
+}
+
+button:hover {
+	font-weight: bold;
+	background:#b3cadf
+}
+
+textarea {
+	position: absolute;
+	resize: none;
+	border: none;
+	border-radius: 0.25em;
+	margin: 1em 1em 0 0.5em;
+	width: 90%;
+	height: 35%;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 110%;
+	background: #fff;
+}
+
+textarea:focus {
+	background: #cad8e4;
+}
+
+.shortText {
+	width: 55%;
+}
+
+.shortestText {
+	width: 45%;
+}
+
+.longText {
+	width: 80%;
+}
+
+#masterEdit {
+	height: 50%;
+	font-size: 250%;
+	margin: 0.25em auto 0 0.5em;
+	padding: 1em 0.5em 0.5em 0.5em;
+	text-align: center;
+	vertical-align: center;
+}
+
+.white {
+	background: #fff;
+}
