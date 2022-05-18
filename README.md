@@ -1,4 +1,4 @@
-# ballisticscalculator
+# Ballistics Calculator
 React app to calculate ballistic trajectories
 
 Run `npm install` to load the necessary dependencies. Run `npm start` to start a local React server. The app can be accessed in your browser at https://localhost:3000
