@@ -12,5 +12,3 @@ At this time in development, only a few of the entry fields have effect on the c
 - Scope Height
 
 Edit these values to generate a new ballistic trajectory with accompanying figures.
-
-A live demo of this calculator can be found at https://ubershotz.com/calc.html
